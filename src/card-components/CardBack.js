@@ -13,7 +13,11 @@ export default class CardBack extends Component {
   generateRatingElement = () => {
     // implement meeeee! See the readme for instructions
     
+<<<<<<< HEAD
   if (this.props.IMDBRating == null) {
+=======
+  if (this.props.IMDBRating === null){
+>>>>>>> 41b244790cf828c3076e5b3028b488a400300986
       return <h4>No Rating Found</h4>
     }
      else
@@ -30,8 +34,13 @@ export default class CardBack extends Component {
         <span />
         { /* your rating element should go here -- you can invoke methods within JSX, à la: this.myMethod() */ }
         
+<<<<<<< HEAD
         <h5 className="genres">{this.props.genres.join(', ')}</h5>
         {this.generateRatingElement()}
+=======
+        
+        <h5 className="genres">{this.props.genres.join(', ')}</h5>
+>>>>>>> 41b244790cf828c3076e5b3028b488a400300986
       </div>
     )
   }
